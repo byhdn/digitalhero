@@ -1,0 +1,11 @@
+{
+  "items": [
+    { "id": 1, "title": "Alpha", "summary": "Premier élément de démonstration.", "category": "Demo" },
+    { "id": 2, "title": "Bravo", "summary": "Deuxième élément de démonstration.", "category": "Demo" },
+    { "id": 3, "title": "Charlie", "summary": "Troisième élément de démonstration.", "category": "Demo" },
+    { "id": 4, "title": "Delta", "summary": "Quatrième élément de démonstration.", "category": "Data" },
+    { "id": 5, "title": "Echo", "summary": "Cinquième élément de démonstration.", "category": "Data" },
+    { "id": 6, "title": "Foxtrot", "summary": "Sixième élément de démonstration.", "category": "UX" },
+    { "id": 7, "title": "Golf", "summary": "Septième élément de démonstration.", "category": "UX" }
+  ]
+}
