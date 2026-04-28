@@ -1,0 +1,72 @@
+{
+  "user": {
+    "name": "Amina Dia",
+    "role": "Apprenante",
+    "avatar": "https://i.pravatar.cc/120?img=47",
+    "xp": 1820,
+    "level": 7,
+    "progress": 68
+  },
+  "dashboard": {
+    "stats": [
+      { "label": "Cours en cours", "value": 3 },
+      { "label": "Leçons terminées", "value": 28 },
+      { "label": "Quiz validés", "value": 12 },
+      { "label": "Certificats", "value": 2 }
+    ],
+    "notifications": [
+      { "id": 1, "type": "success", "title": "Quiz React validé", "message": "Vous avez obtenu 90% au quiz composants." },
+      { "id": 2, "type": "info", "title": "Nouveau live mentor", "message": "Session prévue vendredi à 15h." }
+    ]
+  },
+  "courses": [
+    { "id": "c1", "title": "React de A à Z", "category": "Frontend", "level": "Intermédiaire", "mentor": "Sarah K.", "progress": 75, "lessons": 24, "duration": "18h" },
+    { "id": "c2", "title": "Node.js API", "category": "Backend", "level": "Débutant", "mentor": "Moussa T.", "progress": 40, "lessons": 16, "duration": "12h" },
+    { "id": "c3", "title": "UI/UX Fundamentals", "category": "Design", "level": "Débutant", "mentor": "Lina M.", "progress": 92, "lessons": 14, "duration": "10h" }
+  ],
+  "lessons": [
+    { "id": "l1", "title": "JSX et rendu", "courseId": "c1", "type": "video", "status": "done", "duration": "22 min" },
+    { "id": "l2", "title": "State & Props", "courseId": "c1", "type": "video", "status": "in_progress", "duration": "30 min" },
+    { "id": "l3", "title": "Hooks avancés", "courseId": "c1", "type": "quiz", "status": "todo", "duration": "15 min" }
+  ],
+  "cohorts": [
+    { "id": "co1", "name": "Cohorte Frontend Avril", "members": 32, "nextSession": "2026-05-03", "track": "Frontend" },
+    { "id": "co2", "name": "Cohorte Fullstack Mars", "members": 25, "nextSession": "2026-05-01", "track": "Fullstack" }
+  ],
+  "mentors": [
+    { "id": "m1", "name": "Sarah K.", "specialty": "React", "rating": 4.8, "availability": "Mercredi" },
+    { "id": "m2", "name": "Moussa T.", "specialty": "Node.js", "rating": 4.7, "availability": "Vendredi" }
+  ],
+  "leaderboard": [
+    { "id": 1, "name": "Amina Dia", "xp": 1820 },
+    { "id": 2, "name": "Jean B.", "xp": 1730 },
+    { "id": 3, "name": "Khadija S.", "xp": 1655 }
+  ],
+  "forumThreads": [
+    { "id": "f1", "title": "Comment optimiser le re-render React ?", "author": "Ibrahima", "replies": 12, "tags": ["react", "performance"] },
+    { "id": "f2", "title": "Partage ressources UI", "author": "Aline", "replies": 8, "tags": ["design", "ressources"] }
+  ],
+  "chat": {
+    "messages": [
+      { "id": 1, "sender": "user", "text": "Peux-tu m'expliquer useMemo ?" },
+      { "id": 2, "sender": "ai", "text": "useMemo mémorise une valeur calculée pour éviter des recalculs inutiles." }
+    ]
+  },
+  "quiz": {
+    "title": "Quiz - Hooks React",
+    "question": "Quel hook permet de gérer un état local ?",
+    "choices": ["useMemo", "useState", "useEffect", "useRef"],
+    "correct": 1
+  },
+  "certificate": {
+    "student": "Amina Dia",
+    "course": "React de A à Z",
+    "date": "2026-04-20",
+    "id": "CERT-REACT-2026-004"
+  },
+  "video": {
+    "title": "State & Props",
+    "duration": "30:05",
+    "instructor": "Sarah K."
+  }
+}

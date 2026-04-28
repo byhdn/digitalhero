@@ -1,0 +1,21 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f7f8fc; }
+.layout { display: grid; grid-template-columns: 220px 1fr; gap: 16px; padding: 16px; }
+.navbar { grid-column: 1 / -1; background: #101828; color: white; padding: 12px 16px; display:flex; justify-content:space-between; }
+.sidebar { display: flex; flex-direction: column; gap: 8px; }
+.sidebar button, .tabs button, .btn { border: 1px solid #ddd; padding: 8px 10px; border-radius: 8px; background: white; cursor: pointer; }
+.sidebar .active, .tabs .active, .btn-primary { background: #1d4ed8; color: white; }
+.btn-ghost { background: #eef2ff; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.card { background: white; border-radius: 12px; padding: 12px; border: 1px solid #e5e7eb; }
+.badge { display:inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: #e5e7eb; margin-bottom: 6px; }
+.badge-info { background:#dbeafe; }
+.badge-success { background:#dcfce7; }
+.progress-wrap { background: #e5e7eb; border-radius: 99px; overflow: hidden; position: relative; height: 18px; }
+.progress { background: #22c55e; height: 100%; }
+.progress-wrap span { position: absolute; right: 8px; top: 1px; font-size: 12px; }
+.notification { background: white; border-left: 4px solid #60a5fa; padding: 8px; border-radius: 8px; }
+.notification.success { border-left-color: #22c55e; }
+.field { display:flex; flex-direction:column; gap:4px; margin-bottom: 10px; }
+.filter-bar, .tabs { display:flex; gap:8px; margin-bottom: 12px; }
+.modal-backdrop { position: fixed; inset:0; background: rgba(0,0,0,.35); display:grid; place-items:center; }
+.modal { background: white; border-radius: 12px; padding: 16px; min-width: 320px; }
