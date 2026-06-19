@@ -1,0 +1,9 @@
+.mission-card.mission-card--dark {
+  color: var(--white);
+  background: linear-gradient(145deg, var(--digital-navy), #081225 70%);
+  border-color: var(--line-strong);
+}
+
+.mission-card.mission-card--dark strong {
+  color: var(--white);
+}
