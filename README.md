@@ -1,20 +1,39 @@
-# DigitalHero - structure minimale
+# Digital Hero
 
-Ce dépôt contient une base **Vite + React** avec:
-- chargement des données locales via `public/data/mock.json`
-- routage côté client (`/page/:page`, `/item/:id`)
-- pagination sans backend
+Site public `digitalhero.pro`.
 
-## Démarrage
+## Intention
+
+Digital Hero forme les talents locaux aux outils numeriques, a l IA et a l employabilite digitale.
+
+Signature: **Du talent local au heros digital**.
+
+Cette refonte utilise l identite visuelle validee sur Digital Hero Campus comme reference: fondation navy/orange, hero lisible, logique outil/programme, parcours clair et marque master dominante.
+
+## Stack
+
+- Vite
+- React
+- CSS natif avec tokens de marque
+
+## Commandes
 
 ```bash
 npm install
 npm run dev
+npm run build
 ```
 
-## Vérification rapide
+## Direction design
 
-- Ouvrir `http://localhost:5173`
-- Vérifier que la page affiche la source `public/data/mock.json`
-- Naviguer entre les pages via **Précédent/Suivant**
-- Ouvrir le détail d'un item puis revenir à la liste
+- Digital Navy: `#06172F`
+- Hero Orange: `#FF7A1A`
+- Light Gray: `#F4F6F8`
+- Soft Orange: `#FFE2C8`
+- Secondary Blue: `#102A4C`
+
+Regle: `DIGITAL HERO` reste dominant. Les chapitres territoriaux restent secondaires.
+
+## Notes livraison
+
+Le depot reste leger: aucune nouvelle dependance, pas de backend et pas de mutation de domaine dans cette branche.
